@@ -19,12 +19,12 @@ return (NULL);
 if (parent->left == NULL)
 {
 new_right_node->parent = parent;
-new_right_node->left = parent->left;
-new_right_node->right = NULL;
+new_right_node->left = NULL;
+new_right_node->right = parent->right;
 new_right_node->n = value;
 }
 else
-parent->left = new_right_node;
+parent->right = new_right_node;
 
 return (new_right_node);
 }
