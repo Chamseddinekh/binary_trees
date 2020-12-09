@@ -6,11 +6,12 @@
  * @second: pointer to the second node
  * Return: 0
  */
-binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second)
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
+const binary_tree_t *second)
 {
 
-if (first == NULL || second == NULL) 
-return (NULL); 
+if (first == NULL || second == NULL)
+return (NULL);
 
 
 }
