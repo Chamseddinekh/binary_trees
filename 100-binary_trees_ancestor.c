@@ -12,6 +12,4 @@ const binary_tree_t *second)
 
 if (first == NULL || second == NULL)
 return (NULL);
-
-
 }
